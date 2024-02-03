@@ -61,24 +61,34 @@
 <img src="captures/img_29.png">
 <h2>Récuperation des informations de l'authentification</h2>
 <img src="captures/img_30.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
+<h2>Apres l'instalation de keycloak-angular  </h2>
+<img src="captures/img_31.png">
+<h2>Erreur 401 pas autorisé </h2>
+<img src="captures/img_32.png">
+<h2>On desactive Client authentication </h2>
+<img src="captures/img_33.png">
+<h2>On recupére maintenant les produits</h2>
+<img src="captures/img_34.png">
 
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
-<h2></h2>
-<img src="captures/img_.png">
+<img src="captures/img_35.png">
+
+<h2>On recupére les informations de l'utilisateur connecté</h2>
+<img src="captures/img_36.png">
+<h2>Apres ajout de logout disparition des informations sur les produits et utilisateur connecté </h2>
+<img src="captures/img_37.png">
+<h2>Dans Realm Settings on coche ces options pour register</h2>
+<img src="captures/img_38.png">
+<h2>Apparition de ces options </h2>
+<img src="captures/img_39.png">
+<h2>Interface Register</h2>
+<img src="captures/img_40.png">
+<img src="captures/img_41.png">
+<h2>Si l'utilisateur n'est connecté il a un bouton login</h2>
+<img src="captures/img_42.png">
+<h2>Informations sur les roles de l'utilisateur connecté</h2>
+<img src="captures/img_43.png">
+
+
+
 
 
