@@ -87,6 +87,10 @@
 <img src="captures/img_42.png">
 <h2>Informations sur les roles de l'utilisateur connecté</h2>
 <img src="captures/img_43.png">
+<h2>Authentication OTP</h2>
+<img src="captures/img_44.png">
+<h2>Double authentication</h2>
+<img src="captures/img_45.png">
 
 
 
