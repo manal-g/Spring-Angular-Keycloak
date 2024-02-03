@@ -2,6 +2,8 @@ package com.manal.inventoryservice.web;
 
 import com.manal.inventoryservice.entities.Product;
 import com.manal.inventoryservice.repository.ProductRepository;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,6 +22,7 @@ public class ProductRestController {
     }
 
     @GetMapping("/products")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public List<Product> getAllProducts(){
         return productRepository.findAll();
     }
@@ -28,5 +31,9 @@ public class ProductRestController {
         return productRepository.findById(id).get();
 
     }
-
+    @GetMapping("/auth")
+    public Authentication authentication(Authentication authentication)
+    {
+        return authentication;
+    }
 }
